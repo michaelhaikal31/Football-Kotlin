@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun listenBottomNavigationView() {
+
         bottom_navigation_view.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 bottom_navigation_view.selectedItemId -> return@setOnNavigationItemSelectedListener false
